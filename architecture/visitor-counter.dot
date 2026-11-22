@@ -1,0 +1,41 @@
+digraph VisitorCounter {
+  graph [rankdir=TB, bgcolor="#f4f7f8", pad=0.25, nodesep=0.34, ranksep=0.5, fontname="Helvetica", label="Local hybrid cloud simulation", labelloc=t, fontsize=24];
+  node [shape=box, style="rounded,filled", fillcolor="white", color="#65858d", fontname="Helvetica", margin="0.18,0.11"];
+  edge [color="#416575", fontname="Helvetica", fontsize=10];
+  browser [label="User browser"];
+  router [label="Laptop traffic router\n:8088 · per-request readiness", fillcolor="#dcf4e7"];
+  browser -> router [label="HTTP"];
+  subgraph cluster_primary {
+    label="Primary Minikube · private cloud simulation";
+    style="rounded,filled"; color="#94b4ad"; fillcolor="#e7f4f0";
+    psvc [label="visitor Service"];
+    papp [label="Flask pods"];
+    prsvc [label="Redis Service"];
+    pr [label="Redis StatefulSet"];
+    pv [label="Local PVC · AOF", shape=cylinder];
+    metrics [label="metrics-server"];
+    hpa [label="CPU HPA\n1–5 replicas"];
+    load [label="Temporary load Job"];
+    psvc -> papp;
+    papp -> prsvc [label="INCR / PING"];
+    prsvc -> pr -> pv;
+    metrics -> hpa [label="CPU metrics"];
+    hpa -> papp [label="scales"];
+    load -> psvc;
+    { rank=same; psvc; hpa; }
+  }
+  subgraph cluster_backup {
+    label="Backup Minikube · public cloud simulation";
+    style="rounded,filled"; color="#9aadc9"; fillcolor="#eaf0fa";
+    bsvc [label="visitor Service"];
+    bapp [label="Flask pod"];
+    brsvc [label="Redis Service"];
+    br [label="Redis StatefulSet"];
+    bv [label="Local PVC · AOF", shape=cylinder];
+    bsvc -> bapp;
+    bapp -> brsvc [label="INCR / PING"];
+    brsvc -> br -> bv;
+  }
+  router -> psvc [label="primary · :18081\nport-forward", penwidth=2];
+  router -> bsvc [label="failover · :18082\nport-forward", style=dashed, penwidth=2];
+}

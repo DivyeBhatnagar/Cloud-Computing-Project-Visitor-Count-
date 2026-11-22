@@ -1,0 +1,148 @@
+Sun Nov 22 22:28:28 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          0s
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           24s
+Sun Nov 22 22:28:33 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          5s
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           29s
+Sun Nov 22 22:28:38 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          10s
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           34s
+Sun Nov 22 22:28:43 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          15s
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           40s
+Sun Nov 22 22:28:49 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          21s
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           45s
+Sun Nov 22 22:28:54 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          26s
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           50s
+Sun Nov 22 22:28:59 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          31s
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           55s
+Sun Nov 22 22:29:05 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          37s
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           62s
+Sun Nov 22 22:29:11 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          44s
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           68s
+Sun Nov 22 22:29:17 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          50s
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           75s
+Sun Nov 22 22:29:24 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          57s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           81s
+Sun Nov 22 22:29:30 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          62s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           87s
+Sun Nov 22 22:29:36 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          68s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           92s
+Sun Nov 22 22:29:41 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          73s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           97s
+Sun Nov 22 22:29:46 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          78s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           103s
+Sun Nov 22 22:29:52 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          84s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           108s
+Sun Nov 22 22:29:57 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          89s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           113s
+Sun Nov 22 22:30:02 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          94s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           118s
+Sun Nov 22 22:30:08 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          100s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           2m4s
+Sun Nov 22 22:30:13 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          105s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           2m9s
+Sun Nov 22 22:30:18 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          110s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   474m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           2m14s
+Sun Nov 22 22:30:23 IST 2026
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         1          115s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   500m         67Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           2m19s
+Sun Nov 22 22:30:28 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 500%/60%   1         5         1          2m
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   500m         67Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/5     5            1           2m25s
+Sun Nov 22 22:30:34 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 500%/60%   1         5         1          2m6s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   500m         67Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           2m30s

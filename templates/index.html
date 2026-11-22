@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visitor Counter</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="panel">
+    <p class="cluster"><span aria-hidden="true"></span>{{ cluster }}</p>
+    <h1>Visitor counter</h1>
+    {% if count is not none %}
+    <p class="count">{{ "{:,}".format(count) }}</p>
+    <p class="caption">Total visits on this cluster</p>
+    <a href="/">Count another visit <span aria-hidden="true">↗</span></a>
+    {% else %}
+    <p role="status">The counter is temporarily unavailable.</p>
+    <a href="/">Try again</a>
+    {% endif %}
+  </main>
+</body>
+</html>

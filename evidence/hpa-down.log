@@ -1,0 +1,270 @@
+Sun Nov 22 22:31:02 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 500%/60%   1         5         5          2m34s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   500m         67Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           2m58s
+Sun Nov 22 22:31:07 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 500%/60%   1         5         5          2m39s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   500m         67Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m3s
+Sun Nov 22 22:31:12 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 500%/60%   1         5         5          2m44s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   500m         67Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m8s
+Sun Nov 22 22:31:17 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 500%/60%   1         5         5          2m49s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   500m         67Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m14s
+Sun Nov 22 22:31:23 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 500%/60%   1         5         5          2m55s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m19s
+Sun Nov 22 22:31:28 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 500%/60%   1         5         5          3m
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m24s
+Sun Nov 22 22:31:33 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m5s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m29s
+Sun Nov 22 22:31:38 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m10s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m34s
+Sun Nov 22 22:31:44 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m16s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m40s
+Sun Nov 22 22:31:49 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m21s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m45s
+Sun Nov 22 22:31:54 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m26s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m50s
+Sun Nov 22 22:31:59 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m31s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           3m55s
+Sun Nov 22 22:32:05 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m37s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m1s
+Sun Nov 22 22:32:10 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m42s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m6s
+Sun Nov 22 22:32:15 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m47s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   324m         66Mi            
+visitor-846cbcdf75-djz4t   247m         66Mi            
+visitor-846cbcdf75-sk9hz   175m         66Mi            
+visitor-846cbcdf75-wjzdg   217m         66Mi            
+visitor-846cbcdf75-xwsp9   190m         66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m11s
+Sun Nov 22 22:32:20 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m52s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m17s
+Sun Nov 22 22:32:26 IST 2026
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 324%/60%   1         5         5          3m58s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m22s
+Sun Nov 22 22:32:31 IST 2026
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 2%/60%   1         5         5          4m3s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m27s
+Sun Nov 22 22:32:36 IST 2026
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 2%/60%   1         5         5          4m8s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m33s
+Sun Nov 22 22:32:42 IST 2026
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 2%/60%   1         5         5          4m14s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m38s
+Sun Nov 22 22:32:47 IST 2026
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 2%/60%   1         5         5          4m19s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m43s
+Sun Nov 22 22:32:52 IST 2026
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 2%/60%   1         5         5          4m24s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m48s
+Sun Nov 22 22:32:57 IST 2026
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 2%/60%   1         5         5          4m29s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m54s
+Sun Nov 22 22:33:03 IST 2026
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 2%/60%   1         5         5          4m35s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           4m59s
+Sun Nov 22 22:33:08 IST 2026
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 2%/60%   1         5         5          4m40s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   5/5     5            5           5m4s
+Sun Nov 22 22:33:13 IST 2026
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: 2%/60%   1         5         5          4m45s
+NAME                       CPU(cores)   MEMORY(bytes)   
+visitor-846cbcdf75-b42m7   2m           66Mi            
+visitor-846cbcdf75-djz4t   2m           66Mi            
+visitor-846cbcdf75-sk9hz   2m           66Mi            
+visitor-846cbcdf75-wjzdg   2m           66Mi            
+visitor-846cbcdf75-xwsp9   2m           66Mi            
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+visitor   1/1     1            1           5m10s

@@ -1,0 +1,9 @@
+Metric,Before,After,After minus before,Change (%)
+idle_replicas,3,1,-2,-66.67
+cpu_request_m_per_pod,250,100,-150,-60.00
+memory_request_MiB_per_pod,128,64,-64,-50.00
+cpu_usage_m_total,49,2,-47,-95.92
+memory_usage_MiB_total,198,66,-132,-66.67
+cpu_request_m_total,750,100,-650,-86.67
+memory_request_MiB_total,384,64,-320,-83.33
+image_bytes,404473719,47152940,-357320779,-88.34

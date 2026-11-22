@@ -1,0 +1,46 @@
+┌────────────┬────────┬────────────┬──────────────┬─────────┬────────┬───────┬────────────────┬────────────────────┐
+│  PROFILE   │ DRIVER │  RUNTIME   │      IP      │ VERSION │ STATUS │ NODES │ ACTIVE PROFILE │ ACTIVE KUBECONTEXT │
+├────────────┼────────┼────────────┼──────────────┼─────────┼────────┼───────┼────────────────┼────────────────────┤
+│ [32mvc-backup[0m  │ [32mdocker[0m │ [32mcontainerd[0m │ [32m192.168.58.2[0m │ [32mv1.37.0[0m │ [32mOK[0m     │ [32m1[0m     │ [32m[0m               │ [32m[0m                   │
+│ [32mvc-primary[0m │ [32mdocker[0m │ [32mcontainerd[0m │ [32m192.168.49.2[0m │ [32mv1.37.0[0m │ [32mOK[0m     │ [32m1[0m     │ [32m[0m               │ [32m*[0m                  │
+└────────────┴────────┴────────────┴──────────────┴─────────┴────────┴───────┴────────────────┴────────────────────┘
+NAME              STATUS   ROLES           AGE    VERSION
+node/vc-primary   Ready    control-plane   103s   v1.37.0
+
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/visitor   1/1     1            1           15s
+
+NAME                     READY   AGE
+statefulset.apps/redis   1/1     15s
+
+NAME                 TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
+service/kubernetes   ClusterIP   10.96.0.1       <none>        443/TCP    102s
+service/redis        ClusterIP   None            <none>        6379/TCP   15s
+service/visitor      ClusterIP   10.107.53.222   <none>        80/TCP     15s
+
+NAME                           READY   STATUS    RESTARTS   AGE
+pod/redis-0                    1/1     Running   0          15s
+pod/visitor-857f7d9864-xjts8   1/1     Running   0          15s
+
+NAME                                 STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+persistentvolumeclaim/data-redis-0   Bound    pvc-d924bafb-d527-4197-bf01-ad411bcdc55c   1Gi        RWO            standard       <unset>                 15s
+NAME             STATUS   ROLES           AGE    VERSION
+node/vc-backup   Ready    control-plane   103s   v1.37.0
+
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/visitor   1/1     1            1           21s
+
+NAME                     READY   AGE
+statefulset.apps/redis   1/1     20s
+
+NAME                 TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)    AGE
+service/kubernetes   ClusterIP   10.96.0.1      <none>        443/TCP    102s
+service/redis        ClusterIP   None           <none>        6379/TCP   21s
+service/visitor      ClusterIP   10.108.92.28   <none>        80/TCP     21s
+
+NAME                          READY   STATUS    RESTARTS   AGE
+pod/redis-0                   1/1     Running   0          20s
+pod/visitor-f6cb95fc6-47gwc   1/1     Running   0          20s
+
+NAME                                 STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+persistentvolumeclaim/data-redis-0   Bound    pvc-acb2d816-546c-4631-847d-b30b8db4d3bd   1Gi        RWO            standard       <unset>                 20s

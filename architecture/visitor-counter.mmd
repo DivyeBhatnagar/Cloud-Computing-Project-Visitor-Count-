@@ -1,0 +1,19 @@
+flowchart TB
+    U["Browser"] --> R["Laptop · Python router :8088<br/>Checks /readyz per request"]
+    R -->|"Preferred · port-forward :18081"| PS
+    R -.->|"Failover · port-forward :18082"| BS
+    subgraph P["Primary Minikube · simulated private cloud"]
+      PS["visitor Service"] --> PF["Flask pods"]
+      PF -->|"INCR / PING"| PRS["Redis Service"]
+      PRS --> PR["Redis StatefulSet"]
+      PR --> PV["Local PVC · AOF"]
+      PM["metrics-server"] -->|"CPU metrics"| PH["HPA · 1–5 pods"]
+      PH -->|"Scales"| PF
+      PL["Temporary load Job"] --> PS
+    end
+    subgraph B["Backup Minikube · simulated public cloud"]
+      BS["visitor Service"] --> BF["Flask pod"]
+      BF -->|"INCR / PING"| BRS["Redis Service"]
+      BRS --> BR["Redis StatefulSet"]
+      BR --> BV["Local PVC · AOF"]
+    end

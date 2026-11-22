@@ -1,0 +1,31 @@
+HTTP 200 | Primary private cloud | primary | count 1
+HTTP 200 | Primary private cloud | primary | count 2
+PASSED readiness and counter increments
+* Stopping node "vc-primary"  ...
+* Powering off "vc-primary" via SSH ...
+* 1 node stopped.
+vc-primary
+type: Control Plane
+host: Stopped
+kubelet: Stopped
+apiserver: Stopped
+kubeconfig: Stopped
+
+HTTP 200 | Backup simulated public cloud | backup | count 1
+HTTP 200 | Backup simulated public cloud | backup | count 2
+PASSED readiness and counter increments
+* [vc-primary] minikube v1.39.0 on Darwin 26.6.2 (arm64)
+* Using the docker driver based on existing profile
+* Starting "vc-primary" primary control-plane node in "vc-primary" cluster
+* Pulling base image v0.0.51 ...
+* Preparing Kubernetes v1.37.0 on containerd 2.3.4 ...
+* Verifying Kubernetes components...
+  - Using image gcr.io/k8s-minikube/storage-provisioner:v5
+  - Using image registry.k8s.io/metrics-server/metrics-server:v0.9.0
+* Enabled addons: metrics-server, storage-provisioner, default-storageclass
+* Done! kubectl is now configured to use "vc-primary" cluster and "default" namespace by default
+partitioned roll out complete: 1 new pods have been updated...
+deployment "visitor" successfully rolled out
+HTTP 200 | Primary private cloud | primary | count 4
+HTTP 200 | Primary private cloud | primary | count 5
+PASSED readiness and counter increments

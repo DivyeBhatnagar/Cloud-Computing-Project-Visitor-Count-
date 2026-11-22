@@ -1,0 +1,2 @@
+evidence/*.log -whitespace
+cost-analysis/*.csv whitespace=cr-at-eol

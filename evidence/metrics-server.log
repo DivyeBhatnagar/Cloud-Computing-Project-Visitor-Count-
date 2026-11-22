@@ -1,0 +1,9 @@
+NAME             READY   UP-TO-DATE   AVAILABLE   AGE
+metrics-server   1/1     1            1           9m53s
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+visitor   Deployment/visitor   cpu: <unknown>/60%   1         5         3          60s
+NAME                       CPU(cores)   MEMORY(bytes)   
+redis-0                    12m          3Mi             
+visitor-857f7d9864-9zv8q   46m          66Mi            
+visitor-857f7d9864-f5v96   41m          66Mi            
+visitor-857f7d9864-pzr4f   39m          66Mi            

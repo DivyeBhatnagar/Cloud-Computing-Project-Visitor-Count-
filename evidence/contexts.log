@@ -1,0 +1,3 @@
+CURRENT   NAME         CLUSTER      AUTHINFO     NAMESPACE
+          vc-backup    vc-backup    vc-backup    default
+*         vc-primary   vc-primary   vc-primary   default

@@ -1,0 +1,8 @@
+NAME                            IMAGE                   COMMAND                  SERVICE   CREATED         STATUS                   PORTS
+cloudcomputingproject-redis-1   redis:7.4-alpine        "docker-entrypoint.s…"   redis     8 minutes ago   Up 8 minutes (healthy)   6379/tcp
+cloudcomputingproject-web-1     visitor-counter:local   "gunicorn --bind 0.0…"   web       7 seconds ago   Up 5 seconds (healthy)   127.0.0.1:8080->8000/tcp
+arm64 47153856
+HTTP 200 | Docker Compose | direct | count 3
+HTTP 200 | Docker Compose | direct | count 4
+PASSED readiness and counter increments
+4

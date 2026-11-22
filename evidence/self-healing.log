@@ -1,0 +1,8 @@
+pod/visitor-857f7d9864-xjts8 condition met
+NAME                       READY   STATUS    RESTARTS   AGE
+visitor-857f7d9864-xjts8   1/1     Running   0          15s
+pod "visitor-857f7d9864-xjts8" deleted from default namespace
+pod/visitor-857f7d9864-v5bnq condition met
+NAME                       READY   STATUS    RESTARTS   AGE
+visitor-857f7d9864-v5bnq   1/1     Running   0          5s
+PASSED self-healing: visitor-857f7d9864-xjts8 -> visitor-857f7d9864-v5bnq

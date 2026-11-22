@@ -1,0 +1,9 @@
+metric,value
+idle_replicas,3
+cpu_request_m_per_pod,250.0
+memory_request_MiB_per_pod,128.0
+cpu_usage_m_total,49.0
+memory_usage_MiB_total,198.0
+cpu_request_m_total,750.0
+memory_request_MiB_total,384.0
+image_bytes,404473719

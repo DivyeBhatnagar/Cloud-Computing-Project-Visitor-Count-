@@ -1,0 +1,46 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 598B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 1.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 127B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 194B done
+#4 DONE 0.0s
+
+#5 [1/7] FROM docker.io/library/python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+#5 resolve docker.io/library/python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b 0.0s done
+#5 DONE 0.0s
+
+#6 [3/7] COPY requirements.txt .
+#6 CACHED
+
+#7 [4/7] RUN pip install --no-cache-dir -r requirements.txt
+#7 CACHED
+
+#8 [5/7] COPY app.py .
+#8 CACHED
+
+#9 [6/7] COPY templates/ templates/
+#9 CACHED
+
+#10 [2/7] WORKDIR /app
+#10 CACHED
+
+#11 [7/7] COPY static/ static/
+#11 CACHED
+
+#12 exporting to image
+#12 exporting layers done
+#12 exporting manifest sha256:8ffbeac6b630e7646266b7eb9b70208653b2fa043ce54bf1ecabd9a96725e345 done
+#12 exporting config sha256:6ad04ff86ceda932df5609da09813bcff10994c93778d691d7a75917c18b12f9 done
+#12 naming to docker.io/library/visitor-counter:local done
+#12 unpacking to docker.io/library/visitor-counter:local done
+#12 DONE 0.0s

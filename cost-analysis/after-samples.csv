@@ -1,0 +1,4 @@
+sample,idle_replicas,cpu_request_m_per_pod,memory_request_MiB_per_pod,cpu_usage_m_total,memory_usage_MiB_total,cpu_request_m_total,memory_request_MiB_total
+1,1,100.0,64.0,2.0,66.0,100.0,64.0
+2,1,100.0,64.0,2.0,66.0,100.0,64.0
+3,1,100.0,64.0,2.0,66.0,100.0,64.0

@@ -1,0 +1,18 @@
+test_health_and_readiness_without_increment (test_app.AppTests.test_health_and_readiness_without_increment) ... ok
+test_increments_every_visit (test_app.AppTests.test_increments_every_visit) ... ok
+test_load_endpoint_requires_opt_in (test_app.AppTests.test_load_endpoint_requires_opt_in) ... ok
+test_redis_failure (test_app.AppTests.test_redis_failure) ... [2026-11-22 22:32:34,454] WARNING in app: Redis counter unavailable
+ok
+test_counter_shared_between_app_instances (test_app.RedisIntegrationTests.test_counter_shared_between_app_instances) ... ok
+test_primary_backup_recovery_and_total_outage (test_router.RouterTests.test_primary_backup_recovery_and_total_outage) ... 127.0.0.1 - - [22/Nov/2026 22:32:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2026 22:32:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2026 22:32:34] "GET / HTTP/1.1" 200 -
+WARNING:root:route primary -> unavailable
+127.0.0.1 - - [22/Nov/2026 22:32:34] code 503, message Neither cluster is ready
+127.0.0.1 - - [22/Nov/2026 22:32:34] "GET / HTTP/1.1" 503 -
+ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.077s
+
+OK

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.zip
+*.log
+!evidence/*.log
+*.pem
+*.key
+
+# College submission copy contains student identifiers.
+/report/project-report.md
+/report/project-report.docx
+/report/project-report.pdf

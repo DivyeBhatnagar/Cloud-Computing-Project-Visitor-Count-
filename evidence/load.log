@@ -1,0 +1,6 @@
+configmap/visitor-load created
+job.batch/visitor-load-1795366708 created
+container "load" in pod "visitor-load-1795366708-nr8fm" is waiting to start: ContainerCreating
+Generating load for 150s with 12 workers
+Successful requests: 4864; failed requests: 7
+job.batch/visitor-load-1795366708 condition met
