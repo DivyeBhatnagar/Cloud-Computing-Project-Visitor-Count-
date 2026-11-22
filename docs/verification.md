@@ -19,9 +19,9 @@ Practical implementation and validation took place on the project laptop on 22 N
 | CSV and comparison table | COMPLETE | [CSV](../cost-analysis/comparison.csv), [table](../cost-analysis/comparison.md) |
 | Architecture diagram and Mermaid source | COMPLETE | [SVG](../architecture/visitor-counter.svg), [Mermaid](../architecture/visitor-counter.mmd) |
 | Laptop screenshots for deployment, scaling, failover and measurements | COMPLETE | [Browser captures and recorded terminal excerpts](../screenshots/) |
-| Public GitHub screenshot | INCOMPLETE | Pending publication |
+| Public GitHub screenshot | INCOMPLETE | Capture after the first public push |
 | Markdown report, DOCX and PDF with laptop results | COMPLETE | [Public Markdown](../report/public-report.md), private college exports under `report/` |
 | Local Git repository and publishing instructions | COMPLETE | `main` initialized, [publication guide](github.md) |
-| Public repository and uploaded files | INCOMPLETE | GitHub CLI credential invalid in this session |
-| Verified public URL on the cover or link file | INCOMPLETE | Placeholder pending publication |
+| Public repository and uploaded files | INCOMPLETE | Repository exists publicly; first push pending |
+| Verified public URL on the cover or link file | COMPLETE | [Repository link](../github_link.txt) and public report cover |
 | GitHub Code → Download ZIP | INCOMPLETE | Pending publication |

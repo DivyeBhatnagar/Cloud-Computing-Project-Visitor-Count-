@@ -6,7 +6,7 @@
 | --- | --- |
 | Subject | Cloud Computing |
 | College | IILM Greater Noida |
-| Public GitHub repository URL | [INSERT VERIFIED URL] |
+| Public GitHub repository URL | https://github.com/DivyeBhatnagar/Cloud-Computing-Project-Visitor-Count- |
 
 ::: {.page-break}
 :::
@@ -109,7 +109,7 @@ The test suite exercises increment behavior, health and readiness, simulated Red
 
 ![Figure 8. Router transitions and successful requests after primary recovery.](../screenshots/20-recovery.png){width=85%}
 
-The [screenshot index](../screenshots/README.md) lists the configured capture commands. The command screenshots show excerpts from the original [validation logs](../evidence/). [INSERT PUBLIC GITHUB SCREENSHOT AFTER PUBLICATION.]
+The [screenshot index](../screenshots/README.md) lists the configured capture commands. The command screenshots show excerpts from the original [validation logs](../evidence/). The public repository screenshot is included as `screenshots/23-github.png`.
 
 ## 16. Challenges and Troubleshooting
 
@@ -137,4 +137,4 @@ A production design could evaluate a managed or replicated data layer, redundant
 
 ## 21. Public GitHub Repository Link
 
-[INSERT VERIFIED URL]. Verify signed-out access before preparing the GitHub ZIP.
+https://github.com/DivyeBhatnagar/Cloud-Computing-Project-Visitor-Count-
