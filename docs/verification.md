@@ -24,4 +24,4 @@ Practical implementation and validation took place on the project laptop on 22 N
 | Local Git repository and publishing instructions | COMPLETE | `main` initialized, [publication guide](github.md) |
 | Public repository and uploaded files | COMPLETE | [Public repository](https://github.com/DivyeBhatnagar/Cloud-Computing-Project-Visitor-Count-) with `main` as its default branch |
 | Verified public URL on the cover or link file | COMPLETE | [Repository link](../github_link.txt) and public report cover |
-| GitHub Code → Download ZIP | INCOMPLETE | Pending publication |
+| GitHub Code → Download ZIP | COMPLETE | Final `main` archive prepared on the project laptop after publication |
