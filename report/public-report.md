@@ -109,7 +109,9 @@ The test suite exercises increment behavior, health and readiness, simulated Red
 
 ![Figure 8. Router transitions and successful requests after primary recovery.](../screenshots/20-recovery.png){width=85%}
 
-The [screenshot index](../screenshots/README.md) lists the configured capture commands. The command screenshots show excerpts from the original [validation logs](../evidence/). The public repository screenshot is included as `screenshots/23-github.png`.
+The [screenshot index](../screenshots/README.md) lists the configured capture commands. The command screenshots show excerpts from the original [validation logs](../evidence/).
+
+![Figure 9. Public GitHub repository verified while signed out.](../screenshots/23-github.png){width=85%}
 
 ## 16. Challenges and Troubleshooting
 
