@@ -15,6 +15,6 @@
 | Three optimization measurements and comparison generation | PASSED | Pod specs, replica counts, metrics-server snapshots and .Size from Docker image inspect |
 | Windows/WSL verification | NOT RUN | Setup instructions provided. Practical validation used macOS ARM64. |
 | Standalone Docker workflow | NOT RUN | Commands provided. The complete container deployment was tested through Compose. |
-| Public GitHub and downloaded ZIP | NOT RUN | Requires a valid authenticated GitHub session and public publication. |
+| Public GitHub and downloaded ZIP | PASSED | Public `main` branch returned HTTP 200, the signed-out repository was captured, and the final archive passed `unzip -t`. |
 
 Recorded output is under [evidence](../evidence). Re-run the local suite with `bash scripts/test-local.sh` and the complete cluster exercise with `bash scripts/validate-clusters.sh` after deploying both profiles and building both image variants.
