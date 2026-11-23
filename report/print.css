@@ -23,7 +23,8 @@ body > table:first-of-type td, body > table:first-of-type th { border: 0; paddin
 body > table:first-of-type thead { display: none; }
 body > table:first-of-type td:first-child { width: 34%; font-weight: bold; }
 figure { margin: 5mm 0 7mm; text-align: center; break-inside: avoid; }
-figure img { max-width: 100%; max-height: 175mm; object-fit: contain; filter: grayscale(1); }
+figure img { max-width: 100%; max-height: 175mm; object-fit: contain; }
+figure:first-of-type img { max-height: 210mm; }
 figcaption { font-size: 10.5pt; line-height: 1.35; margin-top: 2.5mm; text-align: center; color: #000; }
 a { color: #000; text-decoration: none; overflow-wrap: anywhere; }
 code { font: 9.5pt "Courier New", monospace; overflow-wrap: anywhere; }

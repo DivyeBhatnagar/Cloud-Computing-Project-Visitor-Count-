@@ -7,7 +7,7 @@ if [[ -x "$chrome" ]]; then
   tmp=$(mktemp -d)
   trap 'rm -rf "$tmp"' EXIT
   pandoc report/project-report.md --from=markdown --standalone --embed-resources \
-    --resource-path=report:. --metadata pagetitle="Cloud Computing Small Project" \
+    --resource-path=report:. --metadata pagetitle="Cloud Computing Project" \
     --css=report/print.css -o "$tmp/report.html"
   "$chrome" --headless --disable-gpu --no-first-run --no-pdf-header-footer \
     --user-data-dir="$tmp/chrome" --print-to-pdf="$PWD/report/project-report.pdf" \

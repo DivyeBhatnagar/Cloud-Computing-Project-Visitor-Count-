@@ -1,19 +1,62 @@
+---
+config:
+  theme: base
+  themeVariables:
+    fontFamily: Arial
+    fontSize: 17px
+    primaryColor: "#ffffff"
+    primaryTextColor: "#172b4d"
+    primaryBorderColor: "#51769c"
+    lineColor: "#51769c"
+    clusterBkg: "#f4f8fc"
+    clusterBorder: "#a9bed3"
+  flowchart:
+    wrappingWidth: 420
+    htmlLabels: true
+    curve: basis
+    nodeSpacing: 30
+    rankSpacing: 45
+---
 flowchart TB
-    U["Browser"] --> R["Laptop · Python router :8088<br/>Checks /readyz per request"]
-    R -->|"Preferred · port-forward :18081"| PS
-    R -.->|"Failover · port-forward :18082"| BS
-    subgraph P["Primary Minikube · simulated private cloud"]
-      PS["visitor Service"] --> PF["Flask pods"]
-      PF -->|"INCR / PING"| PRS["Redis Service"]
-      PRS --> PR["Redis StatefulSet"]
-      PR --> PV["Local PVC · AOF"]
-      PM["metrics-server"] -->|"CPU metrics"| PH["HPA · 1–5 pods"]
-      PH -->|"Scales"| PF
-      PL["Temporary load Job"] --> PS
+    USER(["USER / WEB BROWSER"])
+    ROUTER["Python traffic router · :8088<br/>Readiness checks and automatic failback"]
+    USER -->|"HTTP request"| ROUTER
+    subgraph HOST["LOCAL HYBRID CLOUD SIMULATION · Divye Bhatnagar"]
+      direction TB
+      subgraph PRIMARY["CLUSTER A · vc-primary · Simulated private cloud"]
+        direction TB
+        SA["Kubernetes Service · visitor"]
+        FA["Flask pods · 1–5 replicas"]
+        RSA["Kubernetes Service · redis"]
+        RA[("Redis StatefulSet<br/>Atomic INCR counter")]
+        PA[("PVC · 1 GiB · Redis AOF")]
+        SA --> FA -->|"INCR / PING"| RSA --> RA --> PA
+        MA["metrics-server"] -->|"CPU utilization"| HA["HPA · CPU target 60%"]
+        HA -.->|"Adjust replica count"| FA
+        LA["Load Job"] -->|"Test traffic"| SA
+      end
+      subgraph BACKUP["CLUSTER B · vc-backup · Simulated public cloud"]
+        direction TB
+        SB["Kubernetes Service · visitor"]
+        FB["Flask pod · backup"]
+        RSB["Kubernetes Service · redis"]
+        RB[("Redis StatefulSet<br/>Independent counter")]
+        PB[("PVC · 1 GiB · Redis AOF")]
+        SB --> FB -->|"INCR / PING"| RSB --> RB --> PB
+      end
     end
-    subgraph B["Backup Minikube · simulated public cloud"]
-      BS["visitor Service"] --> BF["Flask pod"]
-      BF -->|"INCR / PING"| BRS["Redis Service"]
-      BRS --> BR["Redis StatefulSet"]
-      BR --> BV["Local PVC · AOF"]
-    end
+    ROUTER -->|"Preferred · port-forward :18081"| SA
+    ROUTER -.->|"Failover · port-forward :18082"| SB
+    NOTE["Independent Redis counters · No cross-cluster synchronization"]
+    PA ~~~ NOTE
+    PB ~~~ NOTE
+    classDef entry fill:#173b56,color:#ffffff,stroke:#173b56
+    classDef app fill:#e7f1ff,stroke:#4474ae,color:#172b4d
+    classDef data fill:#e8f5ef,stroke:#48856c,color:#183f30
+    classDef control fill:#fff3da,stroke:#b18b39,color:#59441b
+    classDef note fill:#ffffff,stroke:#a9bed3,color:#33465c
+    class USER,ROUTER entry
+    class SA,FA,SB,FB app
+    class RSA,RA,PA,RSB,RB,PB data
+    class MA,HA,LA control
+    class NOTE note

@@ -278,7 +278,7 @@ bash scripts/validate-clusters.sh
 
 ## 👨‍🎓 Academic context
 
-Developed as a **Cloud Computing Small Project** for IILM Greater Noida. The repository demonstrates practical cloud concepts using free, locally executable software and includes reproducible evidence for every compulsory implementation task.
+Developed as a **Cloud Computing Project** for IILM University, Greater Noida. The repository demonstrates practical cloud concepts using free, locally executable software and includes reproducible evidence for every compulsory implementation task.
 
 ## 📄 License
 

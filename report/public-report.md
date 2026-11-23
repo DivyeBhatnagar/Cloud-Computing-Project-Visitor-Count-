@@ -1,6 +1,6 @@
 # Deploy a Visitor Counter Web App (Flask + Redis) on Docker and Kubernetes
 
-**Cloud Computing Small Project**
+**Cloud Computing Project**
 
 | | |
 | --- | --- |
@@ -9,7 +9,7 @@
 | Submitted to | Mr. Rohit Kumar |
 | Section | 3CSE2 |
 | Roll No | 2410030210 |
-| College | IILM Greater Noida |
+| College | IILM University, Greater Noida |
 | Public GitHub repository URL | https://github.com/DivyeBhatnagar/Cloud-Computing-Project-Visitor-Count- |
 
 ::: {.page-break}
