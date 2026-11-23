@@ -1,5 +1,7 @@
 # Screenshot checklist
 
+All published evidence carries the attribution **Divye Bhatnagar**. Browser evidence is presented inside a clearly labeled attribution frame, and command captures show the name above the recorded output. Original browser captures are retained locally in the ignored `screenshots/originals/` directory. The framing identifies the author while preserving the captured evidence.
+
 Capture these on the project laptop during the [demonstration](../docs/demo.md). Use Shift–Command–4 on macOS or Win–Shift–S on Windows. Save PNGs with the listed prefixes. Crop to the app or terminal and remove account credentials, tokens, notifications and unrelated windows. Retain the commands and their genuine output. Capture screenshots during scaling and failover before the state changes.
 
 | File prefix | What to show | Command or action |

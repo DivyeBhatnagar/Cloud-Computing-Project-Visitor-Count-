@@ -4,7 +4,10 @@
 
 | | |
 | --- | --- |
-| Subject | Cloud Computing |
+| Subject | Cloud Computing Project |
+| Name | Divye Bhatnagar |
+| Section | 3CSE2 |
+| Roll No | 2410030210 |
 | College | IILM Greater Noida |
 | Public GitHub repository URL | https://github.com/DivyeBhatnagar/Cloud-Computing-Project-Visitor-Count- |
 

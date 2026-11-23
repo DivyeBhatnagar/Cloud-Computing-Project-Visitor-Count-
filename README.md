@@ -4,6 +4,8 @@
 
 ### Flask · Redis · Docker · Kubernetes · HPA · Local Hybrid-Cloud Failover
 
+**Created by Divye Bhatnagar**
+
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-3.1-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![Redis](https://img.shields.io/badge/Redis-7.4-DC382D?logo=redis&logoColor=white)](https://redis.io/)

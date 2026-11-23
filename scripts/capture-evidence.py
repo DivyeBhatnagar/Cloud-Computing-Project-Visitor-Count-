@@ -25,7 +25,7 @@ p {{ margin: 0 0 20px; color: #3c5850; }}
 pre {{ white-space: pre-wrap; overflow-wrap: anywhere; background: white; border:
 1px solid #afc5bc; border-radius: 10px; padding: 16px; font-size: 14px; line-height: 1.35; }}
 </style>
-<h1>{html.escape(title)}</h1><p>Recorded command output from the project laptop</p>
+<h1>{html.escape(title)}</h1><p><strong>Divye Bhatnagar</strong> · Recorded command output from the project laptop</p>
 <pre>{html.escape(output)}</pre></html>""")
     height = max(340, 165 + len(output.splitlines()) * 22)
     subprocess.run([
